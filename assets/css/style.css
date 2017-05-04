@@ -27,6 +27,10 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
+img {
+  width: 100%;
+}
 .footer {
   position: absolute;
   bottom: 0;
@@ -35,6 +39,10 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
+}
+
+.block-this {
+  display: block;
 }
 
 /* Custom page CSS
@@ -51,6 +59,9 @@ body {
 .social-icons a {
   color: black;
 }
+.social-icons a:hover {
+  color: darkgrey;
+}
 
 @media (min-width: 768px) {
   .footer-container {
@@ -60,6 +71,9 @@ body {
 @media (min-width: 992px) {
   .footer-container {
     width: 970px;
+  }
+  .md-clear {
+    clear: both;
   }
 }
 @media (min-width: 1200px) {

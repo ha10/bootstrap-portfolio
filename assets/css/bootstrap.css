@@ -4964,7 +4964,8 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #fafafa;
+  /*height:92vh;*/
+  /*background-color: #fafafa;*/
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4986,6 +4987,7 @@ a.badge:focus {
 }
 .jumbotron .container {
   max-width: 100%;
+
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
