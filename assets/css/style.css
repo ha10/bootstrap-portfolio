@@ -1,0 +1,15 @@
+
+
+
+/* About */
+.profile-image {
+  position: relative;
+  float: left;
+  padding-right: 1em;
+}
+
+.connect-icons {
+  list-style: none;
+  position: relative;
+  float: left;
+}
